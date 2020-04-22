@@ -23,7 +23,7 @@ here i used vwrsion 2.0
 * Stores a video output for review
 
 ## Things needed to be work-on :
-* ~~Auto-calibration [For the given sample video, I've calibrated the model by simulating a 3D depth factor based on the camera position and orientation.] (Check out v2.0) but if you really wants to use from my input videos file then i will suggest you to take video-2 & 5 (they are more preferable than others)
+* Auto-calibration [For the given sample video, I've calibrated the model by simulating a 3D depth factor based on the camera position and orientation.] (Check out v2.0) but if you really wants to use from my input videos file then i will suggest you to take video-2 & 5 (they are more preferable than others)
 * Faster processing
 
 ## Installation:
