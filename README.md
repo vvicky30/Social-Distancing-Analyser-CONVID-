@@ -10,7 +10,7 @@ Social Distancing Analyser automatically detects the extent to which social dist
 
 # I will be happy and really appreciate you  if you give it a star. ⭐
 
-here i used vwrsion 2.0
+#### here i used version 2.0
 ## So please Note: angle factor is needed to be set between 0 to 1 for v2.0 according to the angle of camera (move towards one as angle becomes verticle)
 
 ## Features:
