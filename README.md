@@ -12,21 +12,29 @@ Social Distancing Analyser automatically detects the extent to which social dist
 # I will be happy and really appreciate you  if you give it a star. ⭐
 
 here i used vwrsion 2.0
-So please Note: angle factor is needed to be set between 0 to 1 for v2.0 according to the angle of camera (move towards one as angle becomes verticle)
+## So please Note: angle factor is needed to be set between 0 to 1 for v2.0 according to the angle of camera (move towards one as angle becomes verticle)
 
-# Things needed to be work-on :
-Auto-calibration [For the given sample video, I've calibrated the model by simulating a 3D depth factor based on the camera position and orientation.] (Check out v2.0) but if you really wants to use from my input videos file then i will suggest you to take video-2 & 5 (they are more preferable than others)
-Faster processing
+## Features:
+* Get the areal time nalytics such as:
+   - Number of people in a particular area
+   - Number of people in high risk
+   - The extent of risk to a particular person.
+* Doesn't collect any data of a particular person
+* Stores a video output for review
 
-# Installation:
-Fork the repository and download the code.
-Download the following files and place it in the same directory
-https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg
-https://pjreddie.com/media/files/yolov3.weights
-For slower CPUs, use yolov3-tiny(preferable)
-Install all the dependenices
-Run social_distancing_analyser.ipynb if you already had a video saved on system 
-else: Run Web_ip_SocialDistancing .ipynb if you wants to take input as in the form of LIVE-video-stream from web-ip enabled camera or installed on smartphones
+## Things needed to be work-on :
+* ~~Auto-calibration [For the given sample video, I've calibrated the model by simulating a 3D depth factor based on the camera position and orientation.] (Check out v2.0) but if you really wants to use from my input videos file then i will suggest you to take video-2 & 5 (they are more preferable than others)
+* Faster processing
 
-# Credits:
-A big thanks to Ardian Rosebrock (www.pyimagesearch.com) for CV tutorial on detection.
+## Installation:
+* Fork the repository and download the code.
+* Download the following files and place it in the same directory
+  - https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg
+  - https://pjreddie.com/media/files/yolov3.weights
+* For slower CPUs, use yolov3-tiny(preferable)
+* Install all the dependenices
+* Run social_distancing_analyser.ipynb if you already had a video saved on system 
+* Else: Run Web_ip_SocialDistancing .ipynb if you wants to take input as in the form of LIVE-video-stream from web-ip enabled camera or installed on smartphones
+
+### Credits:
+#### A big thanks to Ardian Rosebrock (www.pyimagesearch.com) for CV tutorial on detection.
